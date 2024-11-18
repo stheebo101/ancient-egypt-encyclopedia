@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2e8d5; /* Beige background */
+  color: #5a3d36; /* Dark brown text */
+}
+
+header {
+  background-color: #704626;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: white;
+  border: 3px solid #704626;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  font-size: 2em;
+  color: #704626;
+  margin-bottom: 15px;
+}
+
+p {
+  line-height: 1.8;
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #704626;
+  color: white;
+  font-size: 0.9em;
+  margin-top: 20px;
+}
+
+* Apply to the entire page layout */ body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+  margin: 0;
+}
+
+main {
+  flex: 1; /* Allows the main content to grow and push the footer down */
+}
+
+/* Apply to the entire page layout */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+  margin: 0;
+}
+
+main {
+  flex: 1; /* Allows the main content to grow and push the footer down */
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #704626; /* Dark brown */
+  color: white;
+  font-size: 0.9em;
+  width: 100%; /* Ensures footer spans the entire width */
+}

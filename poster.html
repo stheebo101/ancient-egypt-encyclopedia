@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Egyptian Poster - Ancient Egypt Encyclopedia</title>
+    <link rel="stylesheet" href="css/book.css" />
+    <!-- Link to CSS -->
+  </head>
+  <body>
+    <header>
+      <h1>
+        <a href="index.html" class="home-link">Ancient Egypt Encyclopedia</a>
+      </h1>
+      <p>Explore the ancient Egyptian poster illustration.</p>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="book.html">The Illustrated Book</a>
+        <a href="throne.html">The Throne Room</a>
+        <a href="ramses-essay.html">Ancient Egypt During Ramses</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="poster-container">
+        <!-- The poster image is clickable to open in lightbox -->
+        <img
+          src="images/POSTER Free Lightbox in the City Mockup.jpg"
+          alt="Egyptian Poster Illustration"
+          class="poster"
+          id="poster-img"
+        />
+      </div>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+      <span class="close" id="close-btn">&times;</span>
+      <img class="lightbox-img" id="lightbox-img" />
+    </div>
+
+    <script src="lightbox.js"></script>
+    <!-- Link to JavaScript -->
+
+    <footer>
+      <p>&copy; 2024 Ancient Egypt Encyclopedia. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Illustrated Book - Ancient Egypt Encyclopedia</title>
+    <link rel="stylesheet" href="css/book.css" />
+    <!-- Link to CSS -->
+  </head>
+  <body>
+    <header>
+      <h1>
+        <a href="index.html" class="home-link">Ancient Egypt Encyclopedia</a>
+      </h1>
+      <p>Explore the stunning illustration of the Ancient Egyptian Book.</p>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="poster.html">The Egyptian Poster</a>
+        <a href="throne.html">The Throne Room</a>
+        <a href="ramses-essay.html">Ancient Egypt During Ramses</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="illustration-container">
+        <!-- The book image is clickable to open in lightbox -->
+        <img
+          src="images/ENCYCLOPEDIA Hardcover Book MockUp.jpg"
+          alt="Illustration of Ancient Egyptian Book"
+          class="illustration"
+          id="book-img"
+        />
+      </div>
+
+      <div class="illustration-container">
+        <!-- The book image is clickable to open in lightbox -->
+        <img
+          src="images/Book Mockup.jpg"
+          alt="Illustration of Ancient Egyptian Book"
+          class="illustration"
+          id="book-img"
+        />
+      </div>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+      <span class="close" id="close-btn">&times;</span>
+      <img class="lightbox-img" id="lightbox-img" />
+    </div>
+
+    <script src="lightbox.js"></script>
+    <!-- Link to JavaScript -->
+
+    <!-- Add Footer -->
+    <footer>
+      <p>&copy; 2024 Ancient Egypt Encyclopedia. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
