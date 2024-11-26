@@ -107,6 +107,20 @@ main {
   flex: 1; /* Allows the main content to grow and push the footer down */
 }
 
+/* General styling for posters */
+.poster {
+  width: 50%; /* Adjust this if needed for responsiveness */
+  max-width: 600px; /* Example maximum width */
+  margin: 20px auto;
+  display: block;
+}
+
+/* Specific styling for the second poster */
+.small-poster {
+  width: 50%; /* Reduce size to 50% of its original width */
+  max-width: 300px; /* Example maximum width */
+}
+
 /* Footer styles */
 footer {
   text-align: center;
