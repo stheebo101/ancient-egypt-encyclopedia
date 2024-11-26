@@ -51,14 +51,13 @@ p {
 }
 
 .nav-button {
-  background-color: rgba(112, 70, 38, 0.9); /* Semi-transparent brown */
   color: white;
   text-decoration: none;
   padding: 15px 30px;
   font-size: 1.2em;
   font-weight: bold;
   margin: 10px 0;
-  border: 3px solid #5a3d36; /* Darker brown border */
+
   border-radius: 8px;
   width: 80%;
   max-width: 400px;
